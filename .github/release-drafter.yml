@@ -19,7 +19,7 @@ category-template: '### $TITLE'
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 replacers:
   - search: '/TEST-(\d{4,})/g'
-    replace: 'https://testing.atlassian.net/browse/TEST-$1'
+    replace: '[TEST-$1](https://testing.atlassian.net/browse/TEST-$1)'
 change-title-escapes: '\<*_&'
 exclude-labels:
   - 'skip-changelog'
