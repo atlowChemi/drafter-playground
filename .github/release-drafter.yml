@@ -15,6 +15,7 @@ categories:
   - title: '🧰 Maintenance'
     collapse-after: 5
     label: 'chore'
+category-template: '### $TITLE'
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 replacers:
   - search: '/TEST-(\d{4,})/g'
